@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Grid Item Animation Layout - Demo 1</title>
+    <meta name="description" content="A responsive, magazine-like website layout with a grid item animation effect when opening the content">
+    <meta name="keywords" content="grid, layout, effect, animated, responsive, magazine, template, web design">
+    <meta name="author" content="Codrops">
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans:400,300,700">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style1.css">
+    <link rel="stylesheet" type="text/css" href="css/style2.css"><script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/scroll.js"></script>
+  </head>
+  <body>
+    <div role="navigation" class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="index.html" class="navbar-brand">
+            <div class="logo"></div></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="menu"><a href="index.html">Home</a></li>
+            <li class="menu"><a href="about.html">About</a></li>
+            <li class="menu"><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="about">
+      <h1>About us</h1>
+      <h2>Whatever title about the company</h2>
+      <p>The four essays which are here collected will be of interest to a wide circle of educated people, but they can only be thoroughly understood and judged by those who are really acquainted with psychoanalysis as such. It is hoped that they may serve as a bond between students of ethnology, philology, folklore and of the allied sciences, and psychoanalysts; they cannot, however, supply both groups the entire requisites for such co-operation. They will not furnish the former with sufficient insight into the new psychological technique, nor will the psychoanalysts acquire through them an adequate command over the material to be elaborated. Both groups will have to content themselves with whatever attention they can stimulate here and there and with the hope that frequent meetings between them will not remain unproductive for science.<br><br></p>
+      <button id="menu-toggle" class="menu-toggle"><span>Menu</span></button>
+      <div id="theSidebar">
+        <button class="close-button fa fa-fw fa-close"></button>
+      </div>
+      <div id="theGrid" class="main">
+        <div id="bottom" class="whatever">
+          <div id="myCarousel" data-ride="carousel" class="carousel slide">
+            <div role="listbox" class="carousel-inner car2">
+              <div class="item active"><img src="img/quote.png">
+                <p>Az a jó bennük, hogy azt szállítják, amit megbeszéltünk. Nincsenek meglepetések és utólagos magyarázkodás.</p>
+                <p>Lippé Szabolcs<br>Technical Audience Lead<br>Microsoft Magyarország</p>
+              </div>
+              <div class="item"><img src="img/quote.png">
+                <p>Ritka a hozzájuk hasonló széles ismeretekkel rendelkező szakember, aki ha kell, leül szinte bármely vállalati  fejlesztői vagy üzemeltetői felület elé, és otthon érzi magát.”</p>
+                <p>Szabó István<br>IT Architektúra csoportvezető<br>Raiffeisen Bank Zrt. </p>
+              </div>
+              <div class="item"><img src="img/quote.png">
+                <p>Nem ritkán nehéz, szoros határidős feladat elé állítottuk őket, mégis minden esetben pontosan, jó minőségben adták át microsite-jaikat.</p>
+                <p>Császár Gergely<br>Projektvezető<br>Allianz Hungária Zrt.</p>
+              </div>
+            </div>
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2">  </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <h2>Whatever title about the company</h2>
+      <p>The four essays which are here collected will be of interest to a wide circle of educated people, but they can only be thoroughly understood and judged by those who are really acquainted with psychoanalysis as such. It is hoped that they may serve as a bond between students of ethnology, philology, folklore and of the allied sciences, and psychoanalysts; they cannot, however, supply both groups the entire requisites for such co-operation. They will not furnish the former with sufficient insight into the new psychological technique, nor will the psychoanalysts acquire through them an adequate command over the material to be elaborated. Both groups will have to content themselves with whatever attention they can stimulate here and there and with the hope that frequent meetings between them will not remain unproductive for science.<br><br></p>
+    </div>
+    <div id="contact" class="contact">
+      <div class="container">
+        <div class="row">
+          <h1>Contact Us</h1>
+          <p>It seems like an obvious contradiction that persons of such perfection of power should themselves require the greatest care to guard them against threatening dangers, but this is not the only contradiction revealed in the treatment of royal persons</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
